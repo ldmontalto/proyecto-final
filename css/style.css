@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0%;
+    background-color: #C8C9DC;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+/* Menu 
+#banner{
+    width: 100%;
+}
+ul{
+    padding: 40px;
+    height: 40px;
+    background-color: #b48eaeff;
+    list-style: none;
+    display: flex
+}
+.menu_items{
+    border: #fafafa 2px solid;
+    background-color: #feeafaff;
+    border-radius: 8px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 6px;
+    padding: 6px;
+   
+}
+.menu_items:hover{
+    color: aqua;
+}
+*/
+.card{
+    background-color: darkgreen
+}
+.ver .enviar{
+    border: rgb(57, 38, 61) 2px solid;
+    margin: 4px;
+    background-color: #feeafaff;
+    padding: 4px;
+    border-radius: 4px;
+}
+.ver:hover{
+    color: aqua;
+}
+ 
+.enviar:hover{
+    color: aqua;
+}
+/* footer */
+footer{
+    padding: 30px;
+    float: center;
+    background-color: #b48eaeff
+}
+
+/* css del index */
+.contendormedio{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    left: 75 px;
+}
+.img{
+    height: 25%;
+    width: 25%;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+
+section article{
+    background-color: #8e9aafff;
+    margin: 15px 0;
+
+}
+/* contacto */
+.contactanos{
+    text-align: center;
+}
