@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0%;
-    background-color: #FDFFFF;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
@@ -31,8 +30,8 @@ ul{
     color: aqua;
 }
 */
-.card{
-    background-color: darkgreen
+.nav-link:hover{
+    text-decoration: underline;
 }
 .ver .enviar{
     border: rgb(57, 38, 61) 2px solid;
@@ -52,7 +51,8 @@ ul{
 footer{
     padding: 30px;
     float: center;
-    background-color: #b48eaeff
+    color: beige;
+    background-color: #324549
 }
 
 /* css del index */
