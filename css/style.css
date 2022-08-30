@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0%;
-    background-color: #C8C9DC;
+    background-color: #FDFFFF;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
@@ -76,7 +76,12 @@ section article{
     margin: 15px 0;
 
 }
-/* contacto */
+/* contacto
 .contactanos{
     text-align: center;
+}
+ */
+
+.contenedor{
+    align-content: center;
 }

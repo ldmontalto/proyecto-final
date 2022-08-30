@@ -39,18 +39,18 @@
     <main>
         <div class="contactanos">
         <h2>Escribinos!</h2>
-        <p>Aqui podes mandarnos tu receta o tu opinion sobre nuestra pagina</p>
-        <form action="#">
-           <textarea name="Comenta" placeholder="Ingresa Tu Comentario" cols="40" rows="20"></textarea>
-           <hr>
-           <input type="text" placeholder="Nombre y apellido" name="nombre y apellido"> 
-           <label for="edad">edad</label>            
-           <input type="date" name="edad">
-           <hr>
-           <input type="email" placeholder="email" name="email"> 
-           <hr>
-           <input class="enviar" type="submit">       
-        </form>
+        <div class="container"> 
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Direccion de correo</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="comeconmonti@email.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Envíanos tu receta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div>
+            <button type="button" class="btn btn-dark">Enviar</button>
+            </div>
         </div>
     </main>
     <footer>
