@@ -1,7 +1,9 @@
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 0%; 
+    background-color: $colorFondo;
 }
+@import url(./variables/_colores.scss);
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/root";
@@ -14,3 +16,4 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 @import url(./secciones/_header.scss);
 @import "../node_modules/bootstrap/scss/functions";
+
