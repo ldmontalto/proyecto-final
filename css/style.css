@@ -1,4 +1,14 @@
-@import url(./secciones/_header.scss);
 * {
   margin: 0%;
   padding: 0%; }
+
+nav {
+  background-color: #97a8bfff; }
+
+header {
+  width: 100%; }
+
+footer {
+  padding: 30px;
+  float: center;
+  background-color: #344966; }

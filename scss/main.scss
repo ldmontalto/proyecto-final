@@ -1,19 +1,21 @@
 *{
     margin: 0%;
     padding: 0%; 
-    background-color: $colorFondo;
 }
 @import url(./variables/_colores.scss);
-@import "../node_modules/bootstrap/scss/maps";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/root";
-// Create your own map
-$custom-colors: (
-  "custom-color": rgb(226, 55, 55)
-);
-
-// Merge the maps
-$theme-colors: map-merge($theme-colors, $custom-colors);
+@import url(./variables/extend.scss);
 @import url(./secciones/_header.scss);
-@import "../node_modules/bootstrap/scss/functions";
-
+nav{
+    background-color: #97a8bfff;
+}
+header{
+    width: 100%;
+}
+footer{
+    padding: 30px;
+    float: center;
+    background-color: #344966
+}
+.tips{ 
+  @extend %estiloTruco;
+}
